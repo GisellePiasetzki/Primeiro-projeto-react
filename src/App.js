@@ -1,28 +1,23 @@
 import logo from './logo.svg';
-import Header from './components/Header';
-import Banner from './components/Header/Banner';
-import Ciclismo from './components/Ciclismo';
-import Galeria from './components/Galeria';
-import Footer from './components/Footer';
-
-
 import './App.css';
 
-
-
-//aqui eu monto a estrutura base do site, divimos o que é para ter na nossa tela, vamos colocando os componentes
 function App() {
   return (
-    <div >
-    <Header /> 
-
-    <main>
-      <Banner/>
-      <Ciclismo/>
-      <Galeria/>
-    </main>
-    <Footer/>
-
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
