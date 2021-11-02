@@ -1,0 +1,11 @@
+#ciclismo{
+    background: #adadad;
+    padding: 40px 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ciclismo h2 {
+    margin-bottom: 20px;
+}
