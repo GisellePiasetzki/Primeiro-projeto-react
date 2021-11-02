@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Header from './components/Header';
 import Banner from './components/Header/Banner';
 import Ciclismo from './components/Ciclismo';
